@@ -47,6 +47,8 @@ namespace CardGames
 		{
 			SwinGame.DrawBitmap ("cardsBoard.png",0,0);
 
+			SwinGame.LoadFontNamed ("GameFont", "chunkfine.regular.otf", 50);
+
 			// Draw the top card
 			Card top = myGame.TopCard;
 			if (top != null)
@@ -60,6 +62,7 @@ namespace CardGames
 			{
 				SwinGame.DrawText ("No card played yet...", Color.RoyalBlue, 0, 20);
 			}
+
 
 			// Draw the back of the cards... to represent the deck
 			SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), 52, 155, 153);
