@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug-Windows</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -178,6 +178,8 @@
     </None>
     <None Include="Resources\fonts\Chunk.otf" />
     <None Include="Resources\fonts\Chunk.ttf" />
+    <None Include="Resources\cardsBoard.png" />
+    <None Include="Resources\fonts\FFF_Tusj.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sounds\correct.wav">
