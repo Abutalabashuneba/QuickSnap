@@ -52,8 +52,8 @@ namespace CardGames
 			SwinGame.DrawBitmap ("cardsBoard.png",0,0);
 
 			SwinGame.LoadFontNamed ("GameFont", "Chunk.otf", 24);
-			SwinGame.LoadFontNamed ("TopFont","FFF_Tusj.ttf", 24);
-			SwinGame.LoadFontNamed ("StartFont", "FFF_Tusj.ttf", 18);
+			SwinGame.LoadFontNamed ("TopFont","HomenuliShadow.ttf", 24);
+			SwinGame.LoadFontNamed ("StartFont", "HomenuliShadow.ttf", 18);
 
 			// Draw the top card
 			Card top = myGame.TopCard;
