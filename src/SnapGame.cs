@@ -52,16 +52,16 @@ namespace CardGames
 			SwinGame.DrawBitmap ("cardsBoard.png",0,0);
 
 			SwinGame.LoadFontNamed ("GameFont", "Chunk.otf", 24);
-			SwinGame.LoadFontNamed ("TopFont","HomenuliShadow.ttf", 24);
-			SwinGame.LoadFontNamed ("StartFont", "HomenuliShadow.ttf", 18);
+			SwinGame.LoadFontNamed ("TopFont","Chunk.otf", 32);
+			SwinGame.LoadFontNamed ("StartFont", "Chunk.otf", 24);
 
 			// Draw the top card
 			Card top = myGame.TopCard;
 			if (top != null)
 			{
-				SwinGame.DrawText ("Top Card is " + top.ToString (), Color.Red,"TopFont", 335, 105);
-				SwinGame.DrawText ("Player 1 score: " + myGame.Score(0), Color.White,"GameFont", 45, 30);
-				SwinGame.DrawText ("Player 2 score: " + myGame.Score(1), Color.White,"GameFont", 625, 30);
+				SwinGame.DrawText ("Top Card is " + top.ToString (), Color.Red,"TopFont", 310, 105);
+				SwinGame.DrawText ("Player 1 score: " + myGame.Score(0), Color.White,"GameFont", 45, 40);
+				SwinGame.DrawText ("Player 2 score: " + myGame.Score(1), Color.White,"GameFont", 625, 40);
 				SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), top.CardIndex, 565 , 225);
 			}
 			else

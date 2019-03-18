@@ -176,10 +176,13 @@
     <None Include="Resources\SwinGame.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\fonts\Chunk.otf" />
-    <None Include="Resources\fonts\Chunk.ttf" />
+    <None Include="Resources\fonts\Chunk.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\fonts\Chunk.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\cardsBoard.png" />
-    <None Include="Resources\fonts\HomenuliShadow.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sounds\correct.wav">
