@@ -179,7 +179,7 @@
     <None Include="Resources\fonts\Chunk.otf" />
     <None Include="Resources\fonts\Chunk.ttf" />
     <None Include="Resources\cardsBoard.png" />
-    <None Include="Resources\fonts\FFF_Tusj.ttf" />
+    <None Include="Resources\fonts\HomenuliShadow.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sounds\correct.wav">
