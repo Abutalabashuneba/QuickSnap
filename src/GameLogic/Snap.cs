@@ -149,7 +149,7 @@ namespace CardGames.GameLogic
 				//TODO: consider playing a sound here...
 			} else if (player >= 0 && player < _score.Length) {
 				_score [player]--;
-                SwinGame.PlaySoundEffect("error.wav");
+               SwinGame.PlaySoundEffect("error.wav");
 			}
 			// stop the game...
 			_started = false;

@@ -10,7 +10,7 @@
     <RootNamespace>CardGames</RootNamespace>
     <ApplicationIcon>Resources\SwinGame.ico</ApplicationIcon>
     <AssemblyName>SnapGame</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseMSBuildEngine>False</UseMSBuildEngine>
     <TargetFrameworkProfile />
   </PropertyGroup>
